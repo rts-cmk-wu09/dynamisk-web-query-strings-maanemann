@@ -39,10 +39,14 @@ h1 {
 .places-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    max-width: 100vw;
 }
 .places-grid__place {
-    background-color: #CEF9FF;
     width: 288px;
     height: 360px;
     margin: 8px;
+    display: grid;
+    /* UDFYLD DENNE HER: */
+    /* grid-template-areas:; */
+    background-color: #CEF9FF;
 }
