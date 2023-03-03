@@ -50,3 +50,8 @@ h1 {
     /* grid-template-areas:; */
     background-color: #CEF9FF;
 }
+.places-grid figure img {
+    width: 288px;
+    height: 300px;
+    object-fit: cover;
+}
