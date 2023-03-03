@@ -1,0 +1,57 @@
+/*
+   --- GLOBAL --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+html {
+    background-color: lightgray;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
+#wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 44px;
+}
+
+
+
+
+/* --- CONTENT --- */
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 0 25px 8px;
+
+}
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100vw;
+}
+.places-grid figure {
+    width: 288px;
+    height: 360px;
+    margin: 8px;
+    display: grid;
+    /* UDFYLD DENNE HER: */
+    /* grid-template-areas:; */
+    background-color: #CEF9FF;
+}
+.places-grid figure img {
+    width: 288px;
+    height: 300px;
+    object-fit: cover;
+}
